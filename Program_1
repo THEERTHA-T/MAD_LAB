@@ -6,28 +6,29 @@
     android:layout_height="match_parent"
     android:layout_width="match_parent"
     android:orientation="vertical">
+
     <LinearLayout
-        android:layout_height="409dp"
         android:layout_width="match_parent"
+        android:layout_height="271dp"
         android:orientation="horizontal">
+
         <Button
-           android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            android:text="ONE"
-            android:layout_marginLeft="30dp">
-        </Button>
-        <Button
             android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:text="TWO"
-            android:layout_marginLeft="30dp">
-        </Button>
+            android:layout_marginLeft="30dp"
+            android:text="ONE"></Button>
+
         <Button
-            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-        android:text="THREE"
-            android:layout_marginLeft="30dp">
-    </Button>
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="TWO"></Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="THREE"></Button>
 
 
     </LinearLayout>
